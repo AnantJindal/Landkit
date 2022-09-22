@@ -1,0 +1,861 @@
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* button  */
+.btn {
+    cursor: pointer;
+    padding: 9px 16px;
+    font-size: 17px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.btn-blue {
+    background-color: #335eea;
+    border-color: #335eea;
+    color: #fff;
+}
+
+.btn-text-blue {
+    background-color: rgba(51, 94, 234, .1);
+    color: #0000FF;
+}
+
+/* header  */
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.headerFluid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    align-items: center;
+    padding: 15px 0px;
+    margin: auto;
+}
+
+.headerLogo h1 {
+    color: #0000FF;
+    font-size: 30px;
+}
+
+.headerLinks ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.headerLinks ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #506690;
+}
+
+/* banner section */
+.bannerSection {
+    padding-top: 96px;
+}
+
+.bannerContent {
+    padding: 0px 12px;
+}
+
+.bannerContent h3 {
+    max-width: 480px;
+    font-size: 37px;
+    font-weight: 100;
+    color: #161C2D;
+}
+
+.bannerContent p {
+    font-size: 20px;
+    color: #869ab8;
+    padding-top: 4%;
+    max-width: 480px;
+}
+
+
+.bannerContent h3 span {
+    color: #0000FF;
+}
+
+.bannerBtn {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+i {
+    padding-left: 3px;
+}
+
+.bannerImage {
+    width: 50%;
+}
+
+.bannerimgFluid img {
+    width: 100%;
+}
+
+.bannerimgFluid {
+    display: flex;
+    justify-content: center;
+}
+
+/* Card Css */
+
+.cards {
+    padding-top: 96px;
+}
+
+.cards .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 0px;
+}
+
+.card img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    color: #161C2D;
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    color: #869AB8;
+    font-size: 17px;
+}
+
+/*  Buisness Design Page  */
+
+.design .container .designImage img {
+    width: 100%;
+}
+
+.design .container .content {
+    flex-basis: 48%;
+    padding-right: 20px;
+    justify-content: first baseline;
+}
+
+.design .container .content h2 {
+    margin-bottom: 16px;
+    color: #161C2D;
+    font-size: 31px;
+    font-weight: 100;
+}
+
+
+.design .container .content h2 span {
+    color: #335eea;
+}
+
+.design .container .content p {
+    margin-bottom: 32px;
+    color: #506690;
+    font-size: 19px;
+    font-weight: 100;
+    text-align: left;
+    line-height: 34.6px;
+}
+
+.design .container .content ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+.design .container .content ul li small {
+    color: #161C2D;
+    font-size: 21px;
+    font-weight: 100;
+}
+
+.design .container .designImage {
+    flex-basis: 50%;
+}
+
+/* Pricing section  */
+.pricingCard,
+.pricing {
+    background-color: #f1f4f8;
+}
+
+.pricing .container {
+    flex-direction: column;
+    padding: 128px 0px;
+}
+
+.pricing .container .pricingContent {
+    width: 55%;
+}
+
+.pricing .container h1 {
+    padding: 0px 15px;
+    color: #161C2D;
+    /* letter-spacing: -.01em; */
+    font-size: 1.875rem;
+    font-weight: 100;
+    margin-bottom: 16px;
+    line-height: 1.3;
+    /* text-align: center; */
+}
+
+.pricing .container p {
+    text-align: center;
+    font-weight: 100;
+    color: #506690;
+    line-height: 1.3;
+    font-size: 17px;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+}
+
+.pricing .container .pricingContent ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #869AB8;
+    font-size: 17px;
+}
+
+.pricingCard .container {
+    justify-content: flex-start;
+    position: relative;
+}
+
+.standard {
+    box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, .1);
+    background-color: #fff;
+    width: 45%;
+    z-index: 1;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+}
+
+.standardContent {
+    padding: 48px 32px;
+
+}
+
+.standardBtn {
+    color: #fff;
+    background-color: #335eea;
+    padding: 1.122rem 1.5rem;
+    font-size: 17px;
+    border-radius: 0.375rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-size: 1.0625rem;
+    cursor: pointer;
+}
+
+.standard .btn-standard {
+    margin-bottom: 24px;
+}
+
+.standard .price h1 {
+    font-size: 40px;
+    font-weight: 150;
+    margin-bottom: 4px;
+}
+
+.standard .price h1 span {
+    font-size: 24px;
+    font-weight: 150;
+}
+
+.standard .price p {
+    margin-bottom: 48px;
+    font-size: 17px;
+    font-weight: 100;
+    color: #869AB8;
+}
+
+.standard ul li {
+    display: flex;
+    height: 50px;
+    padding-left: 10%;
+}
+
+.standard ul li img {
+    height: 20px;
+    width: 20px;
+    margin: 4px 16px 0px 0px;
+    padding: 4px;
+    margin-right: 1rem;
+    margin-top: 0.25rem;
+}
+
+.standard ul li p {
+    font-size: 17px;
+    font-weight: 50;
+    margin-bottom: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.pricingCard .container .btn {
+    background-color: rgba(51, 94, 234, .1);
+    color: #335eea;
+    border-radius: 50rem;
+    font-size: 12.75px;
+    padding: 4px 12px;
+    font-weight: 100;
+}
+
+.enterprise {
+    box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, .1);
+    background-color: #fff;
+    width: 41%;
+    letter-spacing: 2px;
+    text-align: center;
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    z-index: 799;
+}
+
+.enterpriseBtn {
+    color: #506690;
+    background-color: #d9e2d9;
+    padding: 1.122rem 1.5rem;
+    font-size: 17px;
+    border-radius: 0.375rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-size: 1.0625rem;
+    cursor: pointer;
+}
+
+.enterpriseContent {
+    padding: 48px 32px;
+}
+
+.enterpriseContent .btn-enterprise {
+    margin-bottom: 96px;
+}
+
+.enterpriseContent p {
+    font-size: 1.1075rem;
+    font-weight: 50;
+    line-height: 25px;
+    color: #869AB8;
+    margin-bottom: 80px;
+}
+
+
+/* Blue Card Styling */
+.blueCard {
+    position: absolute;
+    top: 300%;
+    width: 100%;
+    background-color: #1B2A4E;
+    padding: 20px 0;
+}
+
+.blueCard .container {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#BlueCardItemContainer {
+    padding-top: 400px;
+}
+
+.blueCard .blueCardItems {
+    flex-basis: 48%;
+    display: flex;
+    gap: 8px;
+}
+
+
+.blueCardItems img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+}
+
+.blueCardItems .blueCardContent h2 {
+    font-size: 1.1875rem;
+    margin-bottom: 12px;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.blueCardItems .blueCardContent p {
+    font-size: 1.1175rem;
+    margin-bottom: 48px;
+    color: #869AB8;
+    font-weight: 50;
+    width: 82%;
+}
+
+/* Get started styling */
+.getStarted {
+    padding: 46px 0px;
+}
+
+.getStarted .container {
+
+    justify-content: center;
+}
+
+.getStartedContent {
+    width: 65%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.getStarted .getStartedContent .btn-getstarted {
+    margin-bottom: 16px;
+    padding: 4px 12px;
+    color: #506690;
+    background-color: #5066901A;
+    font-size: 12.75px;
+    border-radius: 50rem;
+}
+
+.getStarted .getStartedContent h4 {
+    color: #ffffff;
+    font-size: 43px;
+    margin-bottom: 16px;
+    font-weight: 50;
+}
+
+.getStarted .getStartedContent p {
+    color: #869AB8;
+    font-size: 19px;
+    margin-bottom: 48px;
+    font-weight: 50;
+}
+
+.getStarted .getStartedContent .buyBtn {
+    background-color: #42ba96;
+    color: #ffffff;
+    padding: 13px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+
+/* Responsive CSS */
+@media all and (max-width:992px) {
+
+    /* Header Section */
+    .headerFluid {
+        padding: 15px 15px 0px 15px;
+    }
+
+    .header .headerLinks ul {
+        display: none;
+    }
+
+    /* Banner Section */
+    .bannerSection {
+        padding-top: 36px;
+    }
+
+    .bannerSection .container {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .bannerImage {
+        width: 100vw;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .bannerSection .container .bannerContent h3,
+    p {
+        text-align: center;
+    }
+
+    .bannerBtn {
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Card Section */
+    .card {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .cards .container {
+        gap: 50px;
+        padding: 16px 0px;
+    }
+
+    .cards .container .card p {
+        text-align: left;
+    }
+
+    /* BuisnessDesign css */
+    .design {
+        margin-top: 10%;
+        padding: 0px 20px;
+    }
+
+    .design .container .content {
+        margin-top: 5%;
+    }
+
+    /* BlueCard Styling */
+    .blueCard {
+        position: absolute;
+        top: 320%;
+    }
+}
+
+
+
+@media all and (max-width:768px) {
+
+    /* Cards Css */
+    .cards .container {
+        flex-wrap: wrap;
+    }
+
+    /* BuisnessDesign css */
+    .design {
+        margin-top: 10%;
+    }
+
+    .design .container {
+        flex-wrap: wrap-reverse;
+    }
+
+    .design .container .content {
+        flex-basis: 100%;
+    }
+
+    .design .container .content ul {
+        gap: 20px;
+    }
+
+    .design .container .designImage {
+        flex-basis: 100%;
+    }
+
+    /* Pricing Card Styling */
+    .pricingCard .container {
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+    }
+
+    .pricingCard .container .standard {
+        width: 100%;
+    }
+
+    .pricingCard .container .enterprise {
+        width: 100%;
+    }
+
+    .pricing .container .pricingContent {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    /* Get Started Part */
+    .getStartedContent {
+        width: 100%;
+    }
+
+    /* Blue Card Styling */
+    .blueCard {
+        position: absolute;
+        top: 570%;
+    }
+
+    .blueCard .container {
+        width: 90%;
+    }
+
+    .blueCard .blueCardItems {
+        flex-grow: 1;
+    }
+
+    .blueCardItems .blueCardContent h2 {
+        font-size: 0.9312rem;
+        padding-top: 5px;
+    }
+
+    .blueCardItems .blueCardContent p {
+        font-size:0.8825rem;
+        width: 100%;
+    }
+}
+
+
+
+/* 
+.mainCrausel .container .CrauselImg {
+    width: 50%;
+}
+
+.mainCrausel .container .CrauselImg img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+.mainCrausel .container .CrauselContent p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #161C2D;
+    font-weight: 100;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: center !important; 
+}
+
+.mainCrausel .container .CrauselContent span {
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 8px;
+}
+
+.mainCrausel .container .CrauselContent img {
+    margin-bottom: 40px;
+    width: 152px;
+    height: 54px;
+} */
+
+
+/* .blueCard{
+    padding: 400px 0px;
+    position: absolute;
+    top: 230%;
+    width: 100%;
+}
+.enterpriseContent{
+    z-index: 799;
+}
+
+.pricingCard .container{
+    position: relative;
+} */
+
+
+
+
+
+/* @media all and (max-width:1100px) {
+    .headerFluid {
+        padding: 25px 35px 0;
+    }
+
+    .headerLinks ul {
+        display: none;
+    }
+
+    .bannerSection.container{
+        margin-top: 15%;
+    }
+
+    .bannerSection .container .bannerContent {
+        width: 100vw;
+        text-align: center;
+    }
+    .cards .container{
+        margin-top: 8%;
+     
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 60px;
+    }
+   
+
+}
+
+@media all and (max-width:810px) {
+    .headerFluid {
+        padding: 25px 35px 0;
+    }
+    .bannerSection .container {
+        margin-top: 20%;
+    }
+
+   .bannerSection  .container {
+        flex-wrap: wrap-reverse;
+       padding-left: 15px ;
+    }
+    .bannerImage {
+        width: 70%;
+    }
+    .bannerContent{
+        align-items: center;
+        justify-content: center;
+    } 
+    .bannerContent .bannerBtn{
+        align-items: center;
+        justify-content: center;
+    }
+    .bannerimgFluid img {
+        width: 80vw;
+        padding-left: 110px;
+    }
+    .cards .container{
+        flex-wrap: wrap;
+        margin-top: 15%;
+    }
+}
+@media all and (max-width:700px) {
+    .bannerSection .container {
+        margin-top: 20%;
+    }
+    .cards .container{
+        margin-top: 15%;
+        max-width: fit-content;
+            padding: 0px 35px 0px;
+    }
+}
+
+@media all and (max-width:500px) {
+    .cards{
+        margin-top: 15%;
+    }
+}
+
+@media all and (max-width:440px) {
+   .container {
+        margin-top: 40%;
+    }
+    .bannerimgFluid img {
+        width: 100vw;
+        padding-left: 110px;
+    }
+    .bannerSection  .container {
+        padding: 15px 20px 0;
+    }
+    .cards .container {
+        padding: 0px 35px 0px;
+    }
+}
+
+@media all and (max-width:410px) {
+   .bannerSection .container {
+        margin-top: 30%;
+    }
+    .bannerimgFluid img {
+        width: 100vw;
+        padding-left: 100px;
+    }
+    .cards .container{
+        margin-top: 20%;
+    }
+    
+} */
+
+/* Crausel section styling */
+/* .crausel {
+    padding-top: 126px;
+}
+
+.crausel .container {
+    flex-direction: column;
+}
+
+.crausel .container h2 {
+    padding: 0px 20px;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.crausel .container #p {
+    width: 55%;
+    padding: 0px 20px;
+    font-weight: 100;
+    font-size: 18.5px;
+    color: #869AB8;
+    margin-bottom: 64px;
+}
+
+.mainCrausel {
+    margin-bottom: 96px;
+}
+
+.mainCrausel .container {
+    box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, .1);
+    background-color: #ffffff;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+/* .crausel .mainCrausel .container #Previous {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 30px;
+    background: transparent;
+    border-radius: 110px;
+} */
+/* 
+.mainCrausel .container img {
+    width: 50%;
+}
+
+.mainCrausel .container .CrauselContent {
+    padding: 64px 40px;
+    text-align: center;
+}
+
+.mainCrausel .container .CrauselContent img {
+    margin-bottom: 40px;
+    width: 252px;
+    height: 80px;
+}
+
+.mainCrausel .container .CrauselContent #crauselText {
+    font-size: 21px;
+    margin-bottom: 40px;
+    color: #161C2D;
+    font-weight: 100;
+}
+
+.crausel .mainCrausel .container .CrauselContent small {
+    color: #869AB8;
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 8px;
+} */
